@@ -31,6 +31,6 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git commit --allow-empty -m "${{ github.event.pull_request.title }}"
-      - uses: R0ll1ngSt0ne/action-semantic-pull-request@v3.8.0
+      - uses: R0ll1ngSt0ne/action-semantic-pull-request@v3.8.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
